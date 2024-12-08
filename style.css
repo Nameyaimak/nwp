@@ -1,0 +1,117 @@
+*{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+}
+.container {
+               max-width: 960px;
+               width: 100%;
+               margin: 0 auto;
+               
+}
+header {
+               width: 100%;
+               height:  120px;
+               background : black;
+               border-top: 5px solid deepskyblue;
+}
+.nav-grid {
+               display: grid;
+               grid-template-columns: 225px 1fr;
+}
+.logo {
+               margin-top: 40px;
+               color: #fff;
+}
+.logo h1 {
+               font-size:28px;
+               text-transform: uppercase;
+}
+.logo span {
+               font-size:20px;
+}
+ul.menu {
+               display: grid;
+               grid-template-columns: repeat(4,1fr);
+               justify-items: center;
+               margin-top: 7%;
+}
+ul.menu li {
+               list-style: none;
+}
+ul.menu li a { 
+               text-decoration: none;
+               color: white;
+               text-transform: uppercase;
+               transition: .3s ease-in-out;
+               padding: 5px 10px;
+}
+ul.menu li a:hover {
+               background:deepskyblue;
+               padding: 5px 10px;
+               border-radius: 5px;
+}
+.content-picture {
+	       margin-top: 100px;
+               width: 100%;
+	       height: auto;
+	       margib-bottom: 50px;
+}
+.content-picture-grid {
+	       height: 600px;
+	       text-align: center;
+	       display: grid;
+               grid-template-columns: 1fr 1fr
+}
+.content-text-item-1 {
+		   max-width:52%;
+                   background:#60d7ed;
+                   border-radius: 35px;
+		   margin-left: 100px;
+}
+.content-text-item-2 {
+                   margin-top: 50px;
+		   max-width:52%;
+                   background:#60d7ed;
+                   border-radius: 35px;
+		   margin-left: 100px;
+}
+.content-text-item-3 {
+                   margin-top: 50px;
+		   max-width:52%;
+                   background:#60d7ed;
+                   border-radius: 35px;
+		   margin-left: 100px;
+}
+footer {
+       		   widht:100%;
+                   background:#36393f;
+}
+.footer-grid {
+		   display:grid;
+		   font-size: 20px;
+                   color:#fff;
+                   margin-left:250px;
+}
+.footer-item {
+		   padding:30px;
+}
+.footer-item p {
+		   font-size:15px;
+		   color:#000;
+}
+.contact {    
+	      margin-top:50px;
+	      font-size: 20px;
+              padding:70px;
+              background:#6D6D6D;
+              border-radius: 50px;
+              margin-bottom: 500px;
+}
+		   
+                   
+		   
+		   
+
+
+
